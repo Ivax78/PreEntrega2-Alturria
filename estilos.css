@@ -1,4 +1,5 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box
@@ -45,7 +46,7 @@ header{
 }
 
 main{
-    height: calc(100vh - 160px);
+    height: 100vh;
     width: 100%;
     background-color: rgb(139, 106, 65);
     background-image: url(img/oliver-bullock-cactus-jack.jpg);
@@ -89,6 +90,9 @@ h2{
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(189, 156, 114);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 0;
 }
 
 section{
@@ -99,6 +103,8 @@ section{
 
 footer{
     background-color: rgb(189, 156, 114);
+    margin-top: 0;
+    padding: 10px 0;
 }
 
 footer p{
