@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 160px;
+    background-color: rgb(189, 156, 114);
+    padding: 60px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    float: left;
+    font-weight: bold;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul{
+    list-style: none;
+}
+
+.barra ul li{
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: black;
+}
+
+.barra a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main{
+    height: calc(100vh - 160px);
+    width: 100%;
+    background-color: rgb(139, 106, 65);
+    background-image: url(img/oliver-bullock-cactus-jack.jpg);
+    background-size: cover;
+}
+.call{
+    width: 80%;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.418);
+    margin: auto
+}
+
+h1{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.call p{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.call a{
+    background-color: rgb(189, 156, 114);
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.bio1{
+    width: 80%;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.418);
+    margin: auto
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(189, 156, 114);
+}
+
+section{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(167, 145, 123);
+}
+
+footer{
+    background-color: rgb(189, 156, 114);
+}
+
+footer p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.redes{
+    font-size: 80px;
+    text-align: center;
+}
+
+.subir{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(189, 156, 114);
+    color: black;
+    position: fixed;
+    right: 80px;
+    bottom: 160px;
+    font-size: 45px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 0 20px #000;
+}
+
+
+.caja{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(189, 156, 114);
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.caja1{
+    background-image: url(img/OwlPharaoh.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.caja2{
+    background-image: url(img/DaysBeforeRodeo.webp);
+    background-size: cover;
+    color: white;
+}
+
+.caja3{
+    background-image: url(img/ab67616d0000b273715973050587fe3c93033aad.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.caja4{
+    background-image: url(img/BirdsInTheTrapSingMcKnight.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.caja5{
+    background-image: url(img/descarga\ \(1\).jpg);
+    background-size: cover;
+    color: white;
+}
+
+.caja6{
+    background-image: url(img/Jackboys.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.caja7{
+    background-image: url(img/Utopia.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+.imagen1{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(189, 156, 114);
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-image: url(img/Travis\ scott.jpg);
+    background-size: cover;
+}
+
+.imagen2{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(189, 156, 114);
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-image: url(img/Travis\ scott2.webp);
+    background-size: cover;
+}
